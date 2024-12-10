@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(34, 60, 80, 0.2); 
+    -moz-box-shadow: 0px 6px 8px 0px rgba(34, 60, 80, 0.2); 
+    box-shadow: 0px 6px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.container {
+    display: block;
+    max-width: 2200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainLogo {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.mainLogoBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.registrButton {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    background-color: #752f07;
+    border-radius: 30px;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.registrButtonBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
